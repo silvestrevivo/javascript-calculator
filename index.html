@@ -14,7 +14,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Custom Fonts/Design -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,11 +28,49 @@
   <body>
 
     <div class="wrapper">
-      <h2>JavaScript Calculator</h2>
+
+      <div id="calculator">
+
+        <h1>electronic calculator</h1>
+
+        <div id="display">
+          <p id="answer">0</p>
+          <p id="history">0</p>
+        </div>
+
+        <div class="wrapper-keys">
+
+            <button class="red" value="ac">AC</button>
+            <button class="red" value="ce">CE</button>
+            <button class="operator" value="/">÷</button>
+            <button value="*">x</button>
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button class="operator" value="-">-</button>
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button class="operator" value="+">+</button>
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button id="equalButton">=</button>
+            <button id="zeroButton">0</button>
+            <button value=".">.</button>
+
+        </div>
+
+      </div>
+
     </div>
 
 
-  <script src="main.js"></script>
+    <footer>
+      <p>Developed by <a href="https://github.com/silvestrevivo" target="_blank">@silvestrevivo</a></p>
+    </footer>
+
+    <script src="main.js"></script>
 
   </body>
 </html>
