@@ -1,4 +1,11 @@
 # javascript-calculator
-Calculator built with HTML, CSS and Vanille JavaScript. Exercise for FreeCodeCamp.
+Calculator built with HTML, CSS and Vanille JavaScript, using CSS Grid display. Exercise for FreeCodeCamp.
 
-Demo in https://silvestrevivo.github.io/javascript-calculator/
+### screenshot
+
+---
+
+![Alt text](https://playground.uonsite.nl/javascript/calculator/img/calculator.jpg "javascript-calculator")
+
+
+Demo in https://playground.uonsite.nl/javascript/calculator/index.html
